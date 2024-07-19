@@ -7,10 +7,10 @@ The goal of this project is to identify features that determine or influence an 
 According to [Hubstaff](https://hubstaff.com/blog/working-days-in-a-month/#:~:text=has%2021%20days.-,How%20many%20average%20working%20days%20are%20in%20a%20month%3F,to%20176%20hours%20every%20month.), the average normal monthly working hours is between 160 and 176. It is important to learn how working hours could influence employee's departure.
 
 ## Understanding data
-Our data has **14999 observations and **10 columns; out of these observations **3008 were duplicates which were later dropped. The data includes features like employee's tenure, average monthly hours, number of projects etc. The data has 84% of stayed employees and 16% of departed employees. Salary colum was an ordinal categorical variable and was encoded into a new variable called salary_code.
+Our data has **14999 observations** and **10 columns**; out of these observations **3008** were duplicates which were later dropped. The data includes features like employee's tenure, average monthly hours, number of projects etc. The data has 84% of stayed employees and 16% of departed employees. Salary colum was an ordinal categorical variable and was encoded into a new variable called salary_code.
 
 ## Model evaluation
 A random forest model comprising 100 decision trees was used to determine feature importance. The below plot show the top five important features. 
-[Important features](.project\viz\important_features.png)
+![Important features](.viz\important_features.png)
 The overall model performed with 86% accuracy and 72% precision. Below is the confusion metrix of the model. <br>
-[confusion matrix](.project\viz\confu_matrix.png)
+![confusion matrix](.viz\confu_matrix.png)
