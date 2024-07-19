@@ -10,7 +10,10 @@ According to [Hubstaff](https://hubstaff.com/blog/working-days-in-a-month/#:~:te
 Our data has **14999 observations** and **10 columns**; out of these observations **3008** were duplicates which were later dropped. The data includes features like employee's tenure, average monthly hours, number of projects etc. The data has 84% of stayed employees and 16% of departed employees. Salary colum was an ordinal categorical variable and was encoded into a new variable called salary_code.
 
 ## Model evaluation
-A random forest model comprising 100 decision trees was used to determine feature importance. The below plot show the top five important features. 
-![Important features](.viz\important_features.png)
+A random forest model comprising 100 decision trees was used to determine feature importance. The below plot show the top five important features. <br>
+![Important features](.\viz\important_features.png) <br>
 The overall model performed with 86% accuracy and 72% precision. Below is the confusion metrix of the model. <br>
-![confusion matrix](.viz\confu_matrix.png)
+![confusion matrix](.\viz\confu_matrix.png)
+
+## Conclusion
+According to the model; the employees are not satified and are overworkes. It is crusial to focus on employee satisfaction and work-life balance. This is because satisfaction level is the most important feature that determine employee departure according to our model; the model also identified number of projects and average monthly hours as the most important feature. Focus should be made to employees with lower satisfaction level, long monthly working hours, large number of projects and new employees as these are the most important parameters that determines employee's departure.
