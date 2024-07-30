@@ -12,7 +12,7 @@ Our data has **14999 observations** and **10 columns**; out of these observation
 ## Model evaluation
 A random forest model comprising 100 decision trees was used to determine feature importance. The below plot show the top five important features. <br>
 ![Important features](./viz/important_features.png) <br>
-The overall model performed with 86% accuracy and 72% precision. Below is the confusion metrix of the model. <br>
+The overall model performed with 98% accuracy and 98% precision. Below is the confusion metrix of the model. <br>
 ![confusion matrix](./viz/confu_matrix.png)
 
 ## Conclusion
